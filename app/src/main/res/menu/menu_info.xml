@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".InfoActivity">
+
+    <item
+        android:id="@+id/delete"
+        android:title="Delete this item"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sales"
+        android:title="Track sales"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/shipment"
+        android:title="Track shipment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/place_order"
+        android:title="Place an order"
+        app:showAsAction="never" />
+
+</menu>
